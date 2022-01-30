@@ -18,7 +18,7 @@ let anyFlag;
 const glb = 'msg';
 
 function logInfo(data: string, _a?: number) {
-	const test = 'test';
+	// const test = 'test';
 	console.log(data);
 	anyFlag = true;
 	console.log(anyFlag);
@@ -30,5 +30,5 @@ function multiple(a: number, b: number) {
 	if (a && b) {
 		return a * b;
 	}
-	// return a;
+	return a;
 }
