@@ -36,6 +36,9 @@ const config: webpack.Configuration = {
 		open: true,
 		hot: true,
 	},
+	resolve: {
+		extensions: ['.js', '.jsx', '.ts', '.tsx'],
+	},
 
 	plugins: [
 		new MiniCssExtractPlugin({
